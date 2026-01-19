@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dadad61h86yue"]
+
+[ext_resource type="Texture2D" uid="uid://c37ug11k34d5a" path="res://sprite.png" id="1_wtcfe"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wtcfe"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(599, 229)
+texture = ExtResource("1_wtcfe")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_wtcfe")
